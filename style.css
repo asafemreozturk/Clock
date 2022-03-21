@@ -1,0 +1,47 @@
+
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(img/clock.webp);
+    
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin:0;
+
+}
+
+h2 {
+    font-weight: normal;
+    
+}
+
+.countdown{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.big{
+    font-weight:bold;
+    font-size:24px;
+    line-height: 1;
+
+}
+
+.countdown-l{
+    text-align: center;
+}
+
+.countdown-l span {
+    font-size: 23px;
+}
+
+span{
+    margin-right: 10px;
+}
